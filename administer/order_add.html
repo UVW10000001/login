@@ -1,0 +1,98 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>添加预约</title>
+    <style type="text/css">
+              table {
+            background-color: #b8ecee;
+            border: 1px;
+            width: 30%;
+            height: 200px;
+        }
+
+        table tr {
+            height: 25px;
+        }
+
+        table tr div {
+            text-align: left;
+        }
+
+        td font {
+            color: red;
+        }
+
+        .mylable{
+            color: red;
+            font-size: 12px;
+        }
+        div{
+            position:relative;
+            top: 15%;
+            left: 32%;
+        }
+
+    </style>
+ 
+
+</head>
+<body>
+<div>
+    <form name="client_form" action="o_su.html" method="POST">
+        <table>
+
+            <tr bgcolor="#f5f5f5">
+                <td>
+                    <div><font>*</font> 用户姓名:</div>
+                </td>
+                <td>
+                    <input id="username" type="text" name="username" value="" size="30">
+                </td>
+            </tr>
+			 <tr bgcolor="#f0f0f0">
+                <td>
+                    <div><font>*</font> 手机号:</div>
+                </td>
+                <td><input id="phone" type="phone" name="phone" value="" size="30"></td>
+
+            </tr>
+            <tr bgcolor="#f5f5f5">
+                <td>
+                    <div><font>*</font> 宠物姓名:</div>
+                </td>
+                <td>
+                    <input id="petname" type="text" name="petname" value="" size="30">
+                </td>
+            </tr>
+            <tr bgcolor="#f5f5f5">
+                <td>
+                    <div><font>*</font> 预约套餐:</div>
+                </td>
+                <td>
+                    <input id="combo" type="text" name="combo" value="" size="30">
+                </td>
+            </tr>
+            <tr bgcolor="#f5f5f5">
+                <td>
+                    <div><font>*</font> 预约时间:</div>
+                </td>
+                <td>
+                    <input id="date" type="text" name="date" value="" size="30">
+                </td>
+            </tr>
+
+
+            <tr bgcolor="#f5f5f5">
+                <td></td>
+                <td colspan="2">
+                    <input type="submit" value="提交">
+                    <a href="order_add.html"><input type="reset" value="重置"></a>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+</body>
+</html>
